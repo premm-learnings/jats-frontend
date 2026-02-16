@@ -6,7 +6,7 @@ import axios from "axios";
   This is the ONLY place where backend base URL is defined.
 */
 const api = axios.create({
-  baseURL: "http://localhost:8080", // ✅ REAL URL, NOT {baseurl}
+  baseURL: "https://jats-backend-4.onrender.com", // ✅ REAL URL, NOT {baseurl}
   headers: {
     "Content-Type": "application/json",
   },
